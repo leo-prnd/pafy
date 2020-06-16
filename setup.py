@@ -10,13 +10,12 @@ python setup.py sdist bdist_wheel
 """
 
 from setuptools import setup
-from pafy import __version__
 
 setup(
     name='pafy',
     packages=['pafy'],
     scripts=['scripts/ytdl'],
-    version=__version__,
+    version="0.5.5",
     description="Retrieve YouTube content and metadata",
     keywords=["pafy", "API", "YouTube", "youtube", "download", "video"],
     author="np1",
